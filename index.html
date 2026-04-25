@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YIC — Terapias Avanzadas de Longevidad y Metabolismo</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="logo">
+        <span class="logo-yic">YiC</span>
+        <span class="logo-tagline" data-es="Ciencia de Longevidad" data-en="Longevity Science">Ciencia de Longevidad</span>
+      </div>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-option" id="langES">ES</span>
+        <span class="lang-divider">|</span>
+        <span class="lang-option" id="langEN">EN</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-es="Portafolio Clínico YIC" data-en="YIC Clinical Portfolio">Portafolio Clínico YIC</p>
+      <h1 class="hero-title" data-es="Terapias de<br>Nueva Generación" data-en="Next-Generation<br>Therapies">Terapias de<br>Nueva Generación</h1>
+      <p class="hero-sub" data-es="Péptidos bioactivos, agonistas metabólicos y hormonas de precisión para medicina regenerativa y longevidad." data-en="Bioactive peptides, metabolic agonists, and precision hormones for regenerative medicine and longevity.">Péptidos bioactivos, agonistas metabólicos y hormonas de precisión para medicina regenerativa y longevidad.</p>
+      <div class="hero-line"></div>
+    </div>
+    <div class="hero-grid-bg"></div>
+  </section>
+
+  <!-- CATEGORY FILTER -->
+  <section class="filter-bar">
+    <div class="filter-inner">
+      <button class="filter-btn active" data-filter="all" data-es="Todos" data-en="All">Todos</button>
+      <button class="filter-btn" data-filter="metabolico" data-es="Metabólico" data-en="Metabolic">Metabólico</button>
+      <button class="filter-btn" data-filter="regeneracion" data-es="Regeneración" data-en="Regeneration">Regeneración</button>
+      <button class="filter-btn" data-filter="inmunidad" data-es="Inmunidad" data-en="Immunity">Inmunidad</button>
+      <button class="filter-btn" data-filter="hormonal" data-es="Hormonal" data-en="Hormonal">Hormonal</button>
+      <button class="filter-btn" data-filter="sueno" data-es="Sueño" data-en="Sleep">Sueño</button>
+      <button class="filter-btn" data-filter="longevidad" data-es="Longevidad" data-en="Longevity">Longevidad</button>
+    </div>
+  </section>
+
+  <!-- PRODUCTS GRID -->
+  <section class="products">
+    <div class="products-grid">
+
+      <!-- 1. Semaglutida -->
+      <article class="card" data-category="metabolico">
+        <div class="card-header">
+          <span class="card-format syringe" data-es="Jeringa" data-en="Syringe">Jeringa</span>
+          <span class="card-category" data-es="Metabólico" data-en="Metabolic">Metabólico</span>
+        </div>
+        <h2 class="card-name">Semaglutida + B3</h2>
+        <p class="card-subtitle" data-es="Agonista GLP-1 + Niacinamida" data-en="GLP-1 Agonist + Niacinamide">Agonista GLP-1 + Niacinamida</p>
+        <p class="card-mechanism" data-es="Regula el apetito a nivel hipotalámico y optimiza la función mitocondrial con Vitamina B3." data-en="Regulates appetite at the hypothalamic level and optimizes mitochondrial function with Vitamin B3.">Regula el apetito a nivel hipotalámico y optimiza la función mitocondrial con Vitamina B3.</p>
+        <ul class="card-benefits">
+          <li data-es="Pérdida de peso: 15–20%" data-en="Weight loss: 15–20%">Pérdida de peso: 15–20%</li>
+          <li data-es="Reducción HbA1c: 1.5–2%" data-en="HbA1c reduction: 1.5–2%">Reducción HbA1c: 1.5–2%</li>
+          <li data-es="Reducción riesgo cardiovascular" data-en="Reduced cardiovascular risk">Reducción riesgo cardiovascular</li>
+          <li data-es="Mejora metabólica y energía" data-en="Metabolic improvement and energy">Mejora metabólica y energía</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea semanal" data-en="Weekly subcutaneous">Subcutánea semanal</span>
+        </div>
+      </article>
+
+      <!-- 2. Tirzepatida -->
+      <article class="card" data-category="metabolico">
+        <div class="card-header">
+          <span class="card-format syringe" data-es="Jeringa" data-en="Syringe">Jeringa</span>
+          <span class="card-category" data-es="Metabólico · Premium" data-en="Metabolic · Premium">Metabólico · Premium</span>
+        </div>
+        <h2 class="card-name">Tirzepatida + B3</h2>
+        <p class="card-subtitle" data-es="Agonista Dual GIP/GLP-1 + Niacinamida" data-en="Dual GIP/GLP-1 Agonist + Niacinamide">Agonista Dual GIP/GLP-1 + Niacinamida</p>
+        <p class="card-mechanism" data-es="Mejora la secreción de insulina, reduce glucagón y optimiza el metabolismo energético con B3." data-en="Improves insulin secretion, reduces glucagon, and optimizes energy metabolism with B3.">Mejora la secreción de insulina, reduce glucagón y optimiza el metabolismo energético con B3.</p>
+        <ul class="card-benefits">
+          <li data-es="Pérdida de peso: hasta 20–25%" data-en="Weight loss: up to 20–25%">Pérdida de peso: hasta 20–25%</li>
+          <li data-es="Reducción HbA1c: >2%" data-en="HbA1c reduction: >2%">Reducción HbA1c: >2%</li>
+          <li data-es="Supresión superior del apetito" data-en="Superior appetite suppression">Supresión superior del apetito</li>
+          <li data-es="Mayor energía metabólica (B3)" data-en="Greater metabolic energy (B3)">Mayor energía metabólica (B3)</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea semanal" data-en="Weekly subcutaneous">Subcutánea semanal</span>
+        </div>
+      </article>
+
+      <!-- 3. Retatrutida -->
+      <article class="card" data-category="metabolico">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Metabólico · Elite" data-en="Metabolic · Elite">Metabólico · Elite</span>
+        </div>
+        <h2 class="card-name">Retatrutida + B3</h2>
+        <p class="card-subtitle" data-es="Triple Agonista GLP-1/GIP/Glucagón + B3" data-en="Triple Agonist GLP-1/GIP/Glucagon + B3">Triple Agonista GLP-1/GIP/Glucagón + B3</p>
+        <p class="card-mechanism" data-es="Actúa de forma integral sobre el metabolismo: oxida grasa, regula apetito y eleva el gasto energético." data-en="Acts comprehensively on metabolism: oxidizes fat, regulates appetite, and elevates energy expenditure.">Actúa de forma integral sobre el metabolismo: oxida grasa, regula apetito y eleva el gasto energético.</p>
+        <ul class="card-benefits">
+          <li data-es="Pérdida de peso: hasta 24–30%" data-en="Weight loss: up to 24–30%">Pérdida de peso: hasta 24–30%</li>
+          <li data-es="Reducción de grasa visceral" data-en="Visceral fat reduction">Reducción de grasa visceral</li>
+          <li data-es="Control superior del apetito" data-en="Superior appetite control">Control superior del apetito</li>
+          <li data-es="Energía metabólica mejorada (B3)" data-en="Enhanced metabolic energy (B3)">Energía metabólica mejorada (B3)</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea semanal" data-en="Weekly subcutaneous">Subcutánea semanal</span>
+        </div>
+      </article>
+
+      <!-- 4. KLOW 80 -->
+      <article class="card" data-category="regeneracion">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Regeneración · Premium" data-en="Regeneration · Premium">Regeneración · Premium</span>
+        </div>
+        <h2 class="card-name">KLOW 80</h2>
+        <p class="card-subtitle">BPC-157 + GHK-CU + TB500 + KPV</p>
+        <p class="card-mechanism" data-es="Combinación sinérgica de péptidos regenerativos para reparación tisular, piel y respuesta inmune." data-en="Synergistic combination of regenerative peptides for tissue repair, skin regeneration, and immune response.">Combinación sinérgica de péptidos regenerativos para reparación tisular, piel y respuesta inmune.</p>
+        <ul class="card-benefits">
+          <li data-es="Regeneración acelerada de tejidos" data-en="Accelerated tissue regeneration">Regeneración acelerada de tejidos</li>
+          <li data-es="Reducción de inflamación" data-en="Inflammation reduction">Reducción de inflamación</li>
+          <li data-es="Recuperación muscular y articular" data-en="Muscular and joint recovery">Recuperación muscular y articular</li>
+          <li data-es="Mejora de piel y cicatrización" data-en="Skin improvement and healing">Mejora de piel y cicatrización</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea 2–3x/semana" data-en="Subcutaneous 2–3x/week">Subcutánea 2–3x/semana</span>
+        </div>
+      </article>
+
+      <!-- 5. Thymosin -->
+      <article class="card" data-category="inmunidad">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Inmunidad" data-en="Immunity">Inmunidad</span>
+        </div>
+        <h2 class="card-name">Thymosin</h2>
+        <p class="card-subtitle">Thymosin Alpha-1 / TB4</p>
+        <p class="card-mechanism" data-es="Péptido inmunomodulador que regula la función del sistema inmune, mejora linfocitos T y promueve reparación tisular." data-en="Immunomodulatory peptide that regulates immune function, enhances T-lymphocytes, and promotes tissue repair.">Péptido inmunomodulador que regula la función del sistema inmune, mejora linfocitos T y promueve reparación tisular.</p>
+        <ul class="card-benefits">
+          <li data-es="Fortalecimiento del sistema inmune" data-en="Immune system strengthening">Fortalecimiento del sistema inmune</li>
+          <li data-es="Reducción de inflamación" data-en="Inflammation reduction">Reducción de inflamación</li>
+          <li data-es="Mejora de recuperación tisular" data-en="Improved tissue recovery">Mejora de recuperación tisular</li>
+          <li data-es="Regeneración celular" data-en="Cellular regeneration">Regeneración celular</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea 2–3x/semana" data-en="Subcutaneous 2–3x/week">Subcutánea 2–3x/semana</span>
+        </div>
+      </article>
+
+      <!-- 6. HCG -->
+      <article class="card" data-category="hormonal">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Hormonal" data-en="Hormonal">Hormonal</span>
+        </div>
+        <h2 class="card-name">HCG</h2>
+        <p class="card-subtitle" data-es="Gonadotropina Coriónica Humana" data-en="Human Chorionic Gonadotropin">Gonadotropina Coriónica Humana</p>
+        <p class="card-mechanism" data-es="Imita la acción de la LH, estimulando producción de testosterona en hombres y ovulación en mujeres." data-en="Mimics LH action, stimulating testosterone production in men and ovulation in women.">Imita la acción de la LH, estimulando producción de testosterona en hombres y ovulación en mujeres.</p>
+        <ul class="card-benefits">
+          <li data-es="Estimulación natural de testosterona" data-en="Natural testosterone stimulation">Estimulación natural de testosterona</li>
+          <li data-es="Apoyo en fertilidad masculina y femenina" data-en="Male and female fertility support">Apoyo en fertilidad masculina y femenina</li>
+          <li data-es="Prevención de atrofia testicular" data-en="Testicular atrophy prevention">Prevención de atrofia testicular</li>
+          <li data-es="Mejora del equilibrio hormonal" data-en="Improved hormonal balance">Mejora del equilibrio hormonal</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea o IM 2–3x/semana" data-en="Subcutaneous or IM 2–3x/week">Subcutánea o IM 2–3x/semana</span>
+        </div>
+      </article>
+
+      <!-- 7. GHRP-6 -->
+      <article class="card" data-category="hormonal">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Hormonal · Premium" data-en="Hormonal · Premium">Hormonal · Premium</span>
+        </div>
+        <h2 class="card-name">GHRP-6</h2>
+        <p class="card-subtitle" data-es="Growth Hormone Releasing Peptide-6" data-en="Growth Hormone Releasing Peptide-6">Growth Hormone Releasing Peptide-6</p>
+        <p class="card-mechanism" data-es="Péptido secretagogo que estimula la liberación natural de hormona de crecimiento vía receptor de grelina." data-en="Secretagogue peptide that stimulates natural growth hormone release via the ghrelin receptor.">Péptido secretagogo que estimula la liberación natural de hormona de crecimiento vía receptor de grelina.</p>
+        <ul class="card-benefits">
+          <li data-es="Incremento de hormona de crecimiento" data-en="Growth hormone increase">Incremento de hormona de crecimiento</li>
+          <li data-es="Mejora de masa muscular y recuperación" data-en="Muscle mass and recovery improvement">Mejora de masa muscular y recuperación</li>
+          <li data-es="Mejora de calidad del sueño" data-en="Sleep quality improvement">Mejora de calidad del sueño</li>
+          <li data-es="Apoyo en pérdida de grasa" data-en="Fat loss support">Apoyo en pérdida de grasa</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea 1–3x/día" data-en="Subcutaneous 1–3x/day">Subcutánea 1–3x/día</span>
+        </div>
+      </article>
+
+      <!-- 8. Epitalon -->
+      <article class="card" data-category="longevidad">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Longevidad · Elite" data-en="Longevity · Elite">Longevidad · Elite</span>
+        </div>
+        <h2 class="card-name">Epitalon</h2>
+        <p class="card-subtitle" data-es="Epithalamin Peptide" data-en="Epithalamin Peptide">Epithalamin Peptide</p>
+        <p class="card-mechanism" data-es="Péptido pineal que modula la expresión de telomerasa, favoreciendo elongación de telómeros y estabilidad genética." data-en="Pineal peptide that modulates telomerase expression, promoting telomere elongation and genetic stability.">Péptido pineal que modula la expresión de telomerasa, favoreciendo elongación de telómeros y estabilidad genética.</p>
+        <ul class="card-benefits">
+          <li data-es="Anti-envejecimiento celular" data-en="Cellular anti-aging">Anti-envejecimiento celular</li>
+          <li data-es="Regulación del sueño (melatonina)" data-en="Sleep regulation (melatonin)">Regulación del sueño (melatonina)</li>
+          <li data-es="Mejora de longevidad celular" data-en="Improved cellular longevity">Mejora de longevidad celular</li>
+          <li data-es="Reducción del estrés oxidativo" data-en="Oxidative stress reduction">Reducción del estrés oxidativo</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Ciclos de 10–20 días, 2–3x/año" data-en="10–20 day cycles, 2–3x/year">Ciclos de 10–20 días, 2–3x/año</span>
+        </div>
+      </article>
+
+      <!-- 9. DSIP -->
+      <article class="card" data-category="sueno">
+        <div class="card-header">
+          <span class="card-format vial" data-es="Frasco" data-en="Vial">Frasco</span>
+          <span class="card-category" data-es="Sueño" data-en="Sleep">Sueño</span>
+        </div>
+        <h2 class="card-name">DSIP</h2>
+        <p class="card-subtitle" data-es="Delta Sleep-Inducing Peptide" data-en="Delta Sleep-Inducing Peptide">Delta Sleep-Inducing Peptide</p>
+        <p class="card-mechanism" data-es="Péptido neuromodulador que regula el sueño, modula ritmos circadianos y estabiliza el sistema nervioso central." data-en="Neuromodulatory peptide that regulates sleep, modulates circadian rhythms, and stabilizes the central nervous system.">Péptido neuromodulador que regula el sueño, modula ritmos circadianos y estabiliza el sistema nervioso central.</p>
+        <ul class="card-benefits">
+          <li data-es="Mejora de calidad del sueño profundo" data-en="Deep sleep quality improvement">Mejora de calidad del sueño profundo</li>
+          <li data-es="Regulación del ritmo circadiano" data-en="Circadian rhythm regulation">Regulación del ritmo circadiano</li>
+          <li data-es="Reducción de estrés y cortisol" data-en="Stress and cortisol reduction">Reducción de estrés y cortisol</li>
+          <li data-es="Recuperación física y mental" data-en="Physical and mental recovery">Recuperación física y mental</li>
+        </ul>
+        <div class="card-footer">
+          <span class="card-admin" data-es="Subcutánea nocturna" data-en="Nightly subcutaneous">Subcutánea nocturna</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">YiC</p>
+      <p class="footer-text" data-es="Uso exclusivo para profesionales de salud. Todos los productos son de uso bajo supervisión médica." data-en="For healthcare professionals only. All products are for use under medical supervision.">Uso exclusivo para profesionales de salud. Todos los productos son de uso bajo supervisión médica.</p>
+      <p class="footer-copy">© 2025 YIC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
