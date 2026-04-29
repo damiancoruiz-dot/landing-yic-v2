@@ -449,6 +449,13 @@ body {
   line-height: 1.7;
 }
 
+.footer-address {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
 .footer-copy {
   font-size: 0.68rem;
   color: rgba(255, 255, 255, 0.2);
