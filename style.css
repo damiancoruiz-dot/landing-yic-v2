@@ -95,7 +95,10 @@ body {
 }
 
 .logo-divider {
-  color: var(--gray-200);
+  width: 1px;
+  height: 18px;
+  background: var(--gray-200);
+  display: block;
 }
 
 .logo-tagline {
