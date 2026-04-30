@@ -560,7 +560,7 @@ hero::after {
   }
 
   .logo-tagline {
-    display: none;
+    display: flex;
   }
 }
 
