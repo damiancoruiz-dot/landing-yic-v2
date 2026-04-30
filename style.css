@@ -102,6 +102,7 @@ body {
   color: var(--gold);
   display: flex;
   align-items: center;
+  height: 32px;
 }
 
 .lang-toggle {
