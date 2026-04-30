@@ -172,10 +172,27 @@ body {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
   background-size: 60px 60px;
   pointer-events: none;
+
+  /* DESVANECIDO */
+  mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0.6) 40%,
+    rgba(0,0,0,0.2) 70%,
+    rgba(0,0,0,0) 100%
+  );
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0.6) 40%,
+    rgba(0,0,0,0.2) 70%,
+    rgba(0,0,0,0) 100%
+  );
 }
 
 hero::after {
