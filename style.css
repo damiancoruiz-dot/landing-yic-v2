@@ -69,16 +69,22 @@ body {
 
 .logo {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.75rem;
+  overflow: hidden;
 }
 
 .logo-img {
   height: 32px;
+  max-height: 32px;
   width: auto;
   display: block;
+  object-fit: contain;
 }
 
+.navbar {
+  overflow: hidden;
+}
 .logo-yic {
   font-family: var(--font-display);
   font-size: 1.6rem;
