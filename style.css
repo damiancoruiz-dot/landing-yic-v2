@@ -351,20 +351,23 @@ hero::after {
   width: calc(100% + 3.5rem);
   margin-left: -1.75rem;
   margin-right: -1.75rem;
-  margin-top: -1.75rem;
+  margin-top: 0.25rem;
 
-  height: 160px;
+  height: 190px;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: #f8fafc;
+  background: linear-gradient(to bottom, #ffffff, #f1f5f9);
+  border-top: 1px solid var(--gray-100);
   border-bottom: 1px solid var(--gray-200);
 }
 
 .card-image img {
-  max-height: 120px;
+  max-width: 82%;
+  max-height: 130px;
   width: auto;
+  height: auto;
   object-fit: contain;
 }
 
