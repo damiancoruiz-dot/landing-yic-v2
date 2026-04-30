@@ -94,6 +94,10 @@ body {
   letter-spacing: 0.05em;
 }
 
+.logo-divider {
+  color: var(--gray-200);
+}
+
 .logo-tagline {
   font-size: 0.7rem;
   font-weight: 300;
