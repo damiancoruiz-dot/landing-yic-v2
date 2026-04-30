@@ -74,6 +74,13 @@ body {
   overflow: hidden;
 }
 
+.logo::after {
+  content: "";
+  width: 1px;
+  height: 18px;
+  background: var(--gray-200);
+}
+
 .logo-img {
   height: 32px;
   max-height: 32px;
