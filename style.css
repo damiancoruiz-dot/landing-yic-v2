@@ -358,14 +358,14 @@ hero::after {
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(to bottom, #ffffff, #f1f5f9);
+  background: transparent;
   border-top: 1px solid var(--gray-100);
   border-bottom: 1px solid var(--gray-200);
 }
 
 .card-image img {
-  max-width: 82%;
-  max-height: 130px;
+  max-width: 92%;
+  max-height: 140px;
   width: auto;
   height: auto;
   object-fit: contain;
