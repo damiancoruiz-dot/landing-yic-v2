@@ -178,14 +178,18 @@ body {
   pointer-events: none;
 }
 
-.hero::after {
+hero::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  bottom: 0;
   left: 0;
   right: 0;
-  height: 100px;
-  background: linear-gradient(to bottom, transparent, var(--off-white));
+  height: 80px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(13, 27, 62, 0.35)
+  );
   pointer-events: none;
 }
 
