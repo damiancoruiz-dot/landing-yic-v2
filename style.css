@@ -156,10 +156,10 @@ body {
   overflow: hidden;
   background-image:
     linear-gradient(
-      160deg,
-      rgba(13, 27, 62, 0.88) 0%,
-      rgba(26, 58, 110, 0.72) 48%,
-      rgba(13, 27, 62, 0.35) 100%
+      135deg,
+      rgba(13, 27, 62, 0.78) 0%,
+      rgba(26, 58, 110, 0.52) 45%,
+      rgba(13, 27, 62, 0.20) 100%
     ),
     url("./images/hero.png");
 
@@ -179,12 +179,12 @@ body {
 
   /* DESVANECIDO */
   mask-image: linear-gradient(
-    to right,
-    rgba(0,0,0,1) 0%,
-    rgba(0,0,0,0.6) 40%,
-    rgba(0,0,0,0.2) 70%,
-    rgba(0,0,0,0) 100%
-  );
+  to right,
+  rgba(0,0,0,1) 0%,
+  rgba(0,0,0,0.75) 45%,
+  rgba(0,0,0,0.35) 75%,
+  rgba(0,0,0,0) 100%
+);
 
   -webkit-mask-image: linear-gradient(
     to right,
