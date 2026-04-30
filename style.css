@@ -163,7 +163,9 @@ body {
     ),
     url("./images/hero.png");
 
-  background-position: 62% center;
+  background-size: cover;
+  background-position: 68% center;
+  background-repeat: no-repeat;
 }
 
 .hero-grid-bg {
