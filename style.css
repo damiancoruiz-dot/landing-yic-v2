@@ -584,3 +584,43 @@ hero::after {
     padding: 1.4rem;
   }
 }
+/* Entrada suave de la imagen del hero */
+.hero {
+  background-image: none;
+  background-color: var(--blue-deep);
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image:
+    linear-gradient(
+      135deg,
+      rgba(13, 27, 62, 0.78) 0%,
+      rgba(26, 58, 110, 0.52) 45%,
+      rgba(13, 27, 62, 0.20) 100%
+    ),
+    url("./images/hero.png");
+
+  background-size: cover;
+  background-position: 68% center;
+  background-repeat: no-repeat;
+
+  animation: heroFadeIn 0.8s ease 0.25s both;
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero::before {
+    animation: none;
+  }
+}
